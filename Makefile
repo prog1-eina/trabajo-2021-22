@@ -25,7 +25,7 @@ OBJECTS =  $(addprefix $(BUILD_DIR)/, main.o fecha.o gasto-diario.o \
 ## Reglas del fichero «Makefile»
 
 all: $(OBJECTS) | $(BIN_DIR)
-	$(CXX) -o $(BIN_DIR)/electricidad $^ -g -static
+	$(CXX) -o $(BIN_DIR)/electricidad $^ -g
 
 $(BUILD_DIR)/%.o: %.cpp fecha.hpp | $(BUILD_DIR)
 	$(CXX) $(CXXFLAGS) -c $< -o $@  
