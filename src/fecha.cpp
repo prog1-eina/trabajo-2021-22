@@ -43,15 +43,13 @@ unsigned diasDelMes(unsigned mes, unsigned agno) {
     if (mes == 2) {
         if (esBisiesto(agno)) {
             return 29;
-        }
-        else {
+        } else {
             return 28;
         }
     }
     else if (mes == 4 || mes == 6 || mes == 9 || mes == 11) {
         return 30;
-    }
-    else {
+    } else {
         return 31;
     }
 }
@@ -66,8 +64,7 @@ unsigned diasDelMes(unsigned mes, unsigned agno) {
 unsigned diasDelAgno(unsigned agno) {
     if (esBisiesto(agno)) {
         return 366;
-    }
-    else {
+    } else {
         return 365;
     }
 }
@@ -82,8 +79,7 @@ unsigned diasTranscurridos(const Fecha inicial, const Fecha final) {
     if (inicial.agno == final.agno) {
         if (inicial.mes == final.mes) {
             return final.dia - inicial.dia;
-        }
-        else {
+        } else {
             unsigned dias = diasDelMes(inicial.mes, inicial.agno) - inicial.dia;
             for (unsigned mes = inicial.mes + 1; mes < final.mes; mes++) {
                 dias += diasDelMes(mes, inicial.agno);
@@ -91,8 +87,7 @@ unsigned diasTranscurridos(const Fecha inicial, const Fecha final) {
             dias += final.dia;
             return dias;
         }
-    }
-    else {
+    } else {
         unsigned dias = diasTranscurridos(inicial, {31, 12, inicial.agno}) + 1;
         for (unsigned agno = inicial.agno + 1; agno < final.agno; agno++) {
             dias += diasDelAgno(agno);
