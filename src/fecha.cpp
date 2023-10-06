@@ -46,8 +46,7 @@ unsigned diasDelMes(unsigned mes, unsigned agno) {
         } else {
             return 28;
         }
-    }
-    else if (mes == 4 || mes == 6 || mes == 9 || mes == 11) {
+    } else if (mes == 4 || mes == 6 || mes == 9 || mes == 11) {
         return 30;
     } else {
         return 31;
