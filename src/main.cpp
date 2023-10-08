@@ -6,9 +6,7 @@
  * Nota: El código de este programa está repartido en varios módulos.
  *       Para compilarlo, hay que ejecutar el comando
  *           make all
- *       o, en Windows,
- *           mingw32-make all
- *       o ejecutar la tarea "Compilar «electricidad»" de VSC.
+  *       o ejecutar la tarea "Compilar «electricidad»" de VSC.
  * 
  *       Para ejecutarlo, una vez compilado, hay que ejecutar el comando
  *           bin/electricidad

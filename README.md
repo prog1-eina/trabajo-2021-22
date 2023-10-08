@@ -20,12 +20,6 @@ Para compilarlo, hay que ejecutar el comando
     make all
 ```
 
-o, en Windows,
-
-```shell
-    mingw32-make all
-```
-
 o ejecutar la tarea ``Compilar «electricidad»`` de VSC.
 
 Para ejecutarlo, una vez compilado, hay que ejecutar el comando
