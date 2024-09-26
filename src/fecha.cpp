@@ -13,7 +13,7 @@ using namespace std;
  * Pre:  ---
  * Post: Ha escrito la fecha «dia» en el flujo «f».
  */
-void mostrar(ostream& f, const Fecha dia) {
+void mostrar(ostream &f, const Fecha dia) {
     f << dia.dia << "-" << dia.mes << "-" << dia.agno;
 }
 

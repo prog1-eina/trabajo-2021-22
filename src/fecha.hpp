@@ -20,7 +20,7 @@ struct Fecha {
  * Pre:  ---
  * Post: Ha escrito la fecha «dia» en el flujo «f».
  */
-void mostrar(ostream& f, const Fecha dia);
+void mostrar(ostream &f, const Fecha dia);
 
 
 /*

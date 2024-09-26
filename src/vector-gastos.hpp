@@ -10,7 +10,7 @@
  *       promedio diario mínimo.
  */
 void diaMasBarato(const GastoDiario regsDiarios[], const unsigned numRegs,
-                  Fecha& dia, double& precioMedioMinimo);
+                  Fecha &dia, double &precioMedioMinimo);
 
 /*
  * Pre:  Las primeras «numRegs» componentes del vector «regsDiarios» almacenan
@@ -22,7 +22,7 @@ void diaMasBarato(const GastoDiario regsDiarios[], const unsigned numRegs,
  *       valor de ese precio máximo.
  */
 void horaMasCara(const GastoDiario regsDiarios[], const unsigned numRegs,
-                 Fecha& dia, unsigned& hora, double& precioMaximo);
+                 Fecha &dia, unsigned &hora, double &precioMaximo);
 
 /*
  * Pre:  Las primeras «numRegs» componentes del vector «regsDiarios» almacenan

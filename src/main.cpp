@@ -34,7 +34,7 @@ using namespace std;
  * Post: Ha escrito en el flujo «f» el informe sobre consumo eléctrico indicado
  *       en el enunciado de este trabajo.
  */
-void escribirInforme(ostream& f,
+void escribirInforme(ostream &f,
                      const GastoDiario regDiarios[], const unsigned numRegs,
                      const string nombreCliente, 
                      const unsigned mesInicial, const unsigned mesFinal) {

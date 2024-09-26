@@ -29,7 +29,7 @@ const string RUTA_DATOS = "datos/";
  *       La función ha devuelto «true» si no se han terminado los datos del
  *       fichero en el intento de lectura y «false» en caso contrario.
  */
-bool leerPrecioHorario(istream& f, Fecha& fecha, unsigned& hora, double& precio);
+bool leerPrecioHorario(istream &f, Fecha &fecha, unsigned &hora, double &precio);
 
 
 /*
@@ -66,8 +66,8 @@ bool leerPrecios(const string nombreFichero,
  *       La función ha devuelto «true» si no se han terminado los datos del
  *       fichero en el intento de lectura y «false» en caso contrario.
  */
-bool leerConsumoHorario(istream& f,
-                        Fecha& fecha, unsigned& hora, double& consumo);
+bool leerConsumoHorario(istream &f,
+                        Fecha &fecha, unsigned &hora, double &consumo);
 
 
 /*
