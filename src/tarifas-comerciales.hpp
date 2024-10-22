@@ -48,7 +48,7 @@ const TarifaPlanaTramos TARIFAS_COMERCIALES[NUM_TARIFAS_COMERCIALES] = {
  *       reflejados por los datos del registro «gasto» suponiendo que se han
  *       aplicado los costes especificados por la tarifa del parámetro «tarifa».
  */
-double costeDiarioTarifaPlanaTramos(const GastoDiario& gasto,
+double costeDiarioTarifaPlanaTramos(const GastoDiario &gasto,
                                     const TarifaPlanaTramos tarifa);
 
 
