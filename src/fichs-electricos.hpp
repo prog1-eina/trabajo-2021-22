@@ -1,11 +1,11 @@
-/******************************************************************************\
+/******************************************************************************
  * Programación 1. Trabajo obligatorio curso 2021-22
  * Autor: Miguel Ángel Latre
  * Ultima revisión: 5-12-2021
  * Resumen: Fichero de interfaz «fichs-electricos.hpp» del módulo
  *          «fichs-electricos» que contiene funciones para la extracción de los
  *          datos relevantes de los ficheros de precios y consumo eléctrico.
-\******************************************************************************/
+ *****************************************************************************/
 #include <fstream>
 #include "fecha.hpp"
 #include "gasto-diario.hpp"

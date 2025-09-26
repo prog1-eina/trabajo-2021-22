@@ -1,4 +1,4 @@
-/******************************************************************************\
+/******************************************************************************
  * Programación 1. Trabajo obligatorio curso 2021-22
  * Autores: ¡¡¡PONED AQUÍ VUESTROS NOMBRES!!!
  * Ultima revisión: ¡¡¡!!!
@@ -13,7 +13,7 @@
  *       o, en Windows,
  *           bin\electricidad.exe
  *       o ejecutar la tarea "Ejecutar «electricidad»" de VSC.
-\******************************************************************************/
+ *****************************************************************************/
 
 #include <iostream>
 #include <fstream>

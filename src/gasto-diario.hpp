@@ -1,11 +1,11 @@
-/******************************************************************************\
+/******************************************************************************
  * Programación 1. Trabajo obligatorio curso 2021-22
  * Autor: Miguel Ángel Latre
  * Ultima revisión: 5-12-2021
  * Resumen: Fichero de interfaz «gasto-diario.hpp» del módulo
  *          «gasto-diario» que contiene tipos registro y funciones para la
  *          gestión de datos horarios de consumo y precios de un día concreto.
-\******************************************************************************/
+ *****************************************************************************/
 #include "fecha.hpp"
 #pragma once
 

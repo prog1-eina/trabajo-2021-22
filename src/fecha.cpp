@@ -1,9 +1,9 @@
-﻿/******************************************************************************\
+﻿/******************************************************************************
  * Curso de Programación 1. Tema 11 (Registros) y trabajo obligatorio 2021-22
  * Autores: Javier Martínez y Miguel Ángel Latre
  * Última revisión: 5 de diciembre de 2021
  * Resumen: Fichero de implementación «fecha.cpp» del módulo «fecha».
-\******************************************************************************/
+ *****************************************************************************/
 
 #include "fecha.hpp"
 #include <iostream>
